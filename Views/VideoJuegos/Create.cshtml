@@ -1,0 +1,61 @@
+@model VideoJuego
+@{
+    ViewData["Tittle"]="Create";
+}
+<div class="titulo d-flex justify-content-center">
+    <h1>Crear Juego</h1>
+</div>
+ <form action="Create" method="post" enctype="multipart/form-data">  <!--El multipart/form-data: le permite a mi pagina de crear que se agregen o se incluyan archivos tales como textos o imagenes,Etc-->
+    <div class="form-group">
+        <label for="">Nombre:</label>
+        <input asp-for="Nombre" class="form-control">
+    </div>
+    @* <div class="form-group">
+        <label for="">Logo:</label>
+        <input asp-for="Logo" class="form-control">
+    </div> *@
+    <div class="form-group">
+        <label for="">Descripcion:</label>
+        <input asp-for="Descripcion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Cantidad:</label>
+        <input asp-for="Cantidad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Consolas Compatibles:</label>
+        <input asp-for="ConsolasCompatibles" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Jugable Online:</label>
+        <input asp-for="JugableOnline" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Fecha de Lanzamiento:</label>
+        <input asp-for="FechaDeLanzamiento" class="form-control" type="date">
+    </div>
+    <br>
+    <!--Agreamos la parte de la ubicacion y la parte que nos dara la el nombre del archivo. haciendo enfasisi a las variables del controlador-->
+    <div class="row">
+        <div class="col-md-6">
+            <label for="">Ubicación</label>
+            <select name="Ubicación" id="" class="form-select">
+                <option value="1">Imagenes</option>
+                <option value="2">Documentos</option>
+                <option value="3">Descargas</option>
+                <option value="4">Temporal</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="">Logo</label>
+                <input type="File" name="archivo" class="form-control">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="botones d-flex justify-content-between">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        <a class="btn btn-secondary"asp-area=""asp-controller="VideoJuegos"asp-action="Index">Volver a listado de juegos</a>
+    </div>
+</form>

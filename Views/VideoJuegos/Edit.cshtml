@@ -1,0 +1,39 @@
+@model VideoJuego
+<div class="titulo">
+    <h1>Editar: @Model.Nombre.</h1>
+</div>
+<form asp-action="Edit" asp-controller="VideoJuegos" asp-route-id="@Model.Id"method="post">
+    <div class="form-group">
+        <label for="">Nombre:</label>
+        <input asp-for="Nombre" class="form-control" values="@Model.Nombre">
+    </div>
+    <div class="form-group">
+        <label for="">Logo:</label>
+        <input asp-for="Logo" class="form-control" values="@Model.Logo">
+    </div>
+    <div class="form-group">
+        <label for="">Descripción:</label>
+        <input asp-for="Descripcion" class="form-control" values="@Model.Descripcion">
+    </div>
+    <div class="form-group">
+        <label for="">Cantidad:</label>
+        <input asp-for="Cantidad" class="form-control" values="@Model.Cantidad">
+    </div>
+    <div class="form-group">
+        <label for="">Consolas Compatibles:</label>
+        <input asp-for="ConsolasCompatibles" class="form-control" values="@Model.ConsolasCompatibles">
+    </div>
+    <div class="form-group">
+        <label for="">Jugable Online:</label>
+        <input asp-for="JugableOnline" class="form-control" values="@Model.JugableOnline">
+    </div>
+    <div class="form-group">
+        <label for="">Fecha de Lanzamiento:</label>
+        <input asp-for="FechaDeLanzamiento" class="form-control" values="@Model.FechaDeLanzamiento">
+    </div>
+    <br>
+    <div class="botones d-flex justify-content-between">
+        <button class="btn btn-primary" type="submit">Guardar</button>
+        <a class="btn btn-secondary"asp-area=""asp-controller="VideoJuegos"asp-action="Index">Volver a listado de VideoJuegos</a>
+    </div>
+</form>

@@ -1,0 +1,43 @@
+<div class="titulo d-flex justify-content-center">
+    <h1>Video Juegos</h1>
+</div>
+    <div class="create">
+        <a class="btn btn-primary"asp-area=""asp-controller="VideoJuegos"asp-action="Create">Craer nuevo Video Juego</a>
+    </div>
+<br>
+<div class="container">
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Nombre:</th>
+                <th>Logo:</th>
+                <th>Descripción:</th>
+                <th>Cantidad</th>
+                <th>Consolas Compatibles</th>
+                <th>Jugable Online:</th>
+                <th>Fecha de Lanzamiento:</th>
+                <th>Acciones:</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach(var VideoJuego in Model){
+            <tr>
+                <td>@VideoJuego.Id</td>
+                <td>@VideoJuego.Nombre</td>
+                <td><img src="~/images/@VideoJuego.Logo" width="150px"alt="@VideoJuego.Logo"></td>
+                <td>@VideoJuego.Descripcion</td>
+                <td>@VideoJuego.Cantidad</td>
+                <td>@VideoJuego.ConsolasCompatibles</td>
+                <td>@VideoJuego.JugableOnline</td>
+                <td>@VideoJuego.FechaDeLanzamiento</td>
+                <td>
+                    <a class="btn btn-primary" asp-route-id="@VideoJuego.Id"asp-controller="VideoJuegos"asp-action="Details">Detalles</a>
+                    <a class="btn btn-success"asp-route-id="@VideoJuego.Id"asp-controller="VideoJuegos"asp-action="Edit">Editar</a>
+                    <a class="btn btn-danger"asp-route-id="@VideoJuego.Id"asp-controller="VideoJuegos"asp-action="Delete">Eliminar</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

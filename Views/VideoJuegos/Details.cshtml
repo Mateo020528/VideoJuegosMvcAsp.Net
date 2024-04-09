@@ -1,0 +1,36 @@
+<div class="titulo d-flex justify-content-center">
+    <h1>Detalles del juego: @Model.Nombre</h1>
+</div>
+<div class="container ">
+    <div class="nombre d-flex p-3">
+        <b>Nombre:</b>
+        <p>@Model.Nombre</p>
+    </div>
+    <div class="logo d-flex p-3">
+        <b>Logo:</b>
+        <img src="@Model.Logo" width="150px">
+    </div>
+    <div class="descripcion d-flex p-3">
+        <b>descripción:</b>
+        <p>@Model.Descripcion</p>
+    </div>
+    <div class="cantidad d-flex p-3">
+        <b>Cantidad:</b>
+        <p>@Model.Cantidad</p>
+    </div>
+    <div class="Compatibles d-flex p-3">
+        <b>Consolas Compatibles:</b>
+        <p>@Model.ConsolasCompatibles</p>
+    </div>
+    <div class="online d-flex p-3">
+        <b>Juego en linea:</b>
+        <p>@Model.JugableOnline</p>
+    </div>
+    <div class="fecha d-flex p-3">
+        <b>fecha de lanzamiento:</b>
+        <p>@Model.FechaDeLanzamiento</p>
+    </div>
+</div>
+<div class="boton">
+    <a class="btn btn-primary"asp-area=""asp-controller="VideoJuegos"asp-action="Index">Volver a listado de VideoJuegos</a>
+</div>
