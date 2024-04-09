@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D0VmPQz4+/EPdONz78wgbukEr+dZuwXj63Ssqwl4dWmkZBNBFxdi8bjyzNe0cmLuCEDB4AJiSi+RVAttmVMu9Q==",
+  "dgSpecHash": "y+W5onG6l/LRpA69ix4X5t84MMDVXmGmJ/30/QczsrZBeSL0hxDr5pmsHqB3KYKbdVeY9UitB8dQFvUWbCDtEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\CrudVideoJuegos\\CrudJuegos\\CrudJuegos.csproj",
+  "projectFilePath": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\VideoJuegosMvcAsp.Net\\CrudJuegos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateo\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.3\\microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
     "C:\\Users\\mateo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.3\\microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512",

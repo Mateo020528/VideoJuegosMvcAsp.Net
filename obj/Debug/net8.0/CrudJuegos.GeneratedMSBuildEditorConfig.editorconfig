@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrudJuegos
 build_property.RootNamespace = CrudJuegos
-build_property.ProjectDir = C:\Users\mateo\OneDrive\Escritorio\ProyectoC#\CrudVideoJuegos\CrudJuegos\
+build_property.ProjectDir = C:\Users\mateo\OneDrive\Escritorio\ProyectoC#\VideoJuegosMvcAsp.Net\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mateo\OneDrive\Escritorio\ProyectoC#\CrudVideoJuegos\CrudJuegos
+build_property.MSBuildProjectDirectory = C:\Users\mateo\OneDrive\Escritorio\ProyectoC#\VideoJuegosMvcAsp.Net
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/Home/Index.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/Home/Privacy.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/Shared/Error.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/VideoJuegos/Create.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/VideoJuegos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9KdWVnb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/VideoJuegos/Details.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/VideoJuegos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9KdWVnb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/VideoJuegos/Edit.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/VideoJuegos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9KdWVnb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/VideoJuegos/Index.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/VideoJuegos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9KdWVnb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/_ViewImports.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/_ViewStart.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/CrudVideoJuegos/CrudJuegos/Views/Shared/_Layout.cshtml]
+[C:/Users/mateo/OneDrive/Escritorio/ProyectoC\#/VideoJuegosMvcAsp.Net/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hs4ymji4yy

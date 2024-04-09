@@ -724,11 +724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\CrudVideoJuegos\\CrudJuegos\\CrudJuegos.csproj",
+      "projectUniqueName": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\VideoJuegosMvcAsp.Net\\CrudJuegos.csproj",
       "projectName": "CrudJuegos",
-      "projectPath": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\CrudVideoJuegos\\CrudJuegos\\CrudJuegos.csproj",
+      "projectPath": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\VideoJuegosMvcAsp.Net\\CrudJuegos.csproj",
       "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\CrudVideoJuegos\\CrudJuegos\\obj\\",
+      "outputPath": "C:\\Users\\mateo\\OneDrive\\Escritorio\\ProyectoC#\\VideoJuegosMvcAsp.Net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config"

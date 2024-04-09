@@ -33,11 +33,11 @@ namespace CrudJuegos.Providers
             }
             else if (folder == Folders.Images)
             {
-                carpeta = "imagenes";
+                carpeta = "images";
             }
             else if (folder == Folders.Documents)
             {
-                carpeta = "documentos";
+                carpeta = "documents";
             }
 
             string path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);

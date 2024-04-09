@@ -4,7 +4,7 @@ USE bgaeex5dedcb3sg4drc4;
 CREATE TABLE VideoJuegos (
     Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     Nombre VARCHAR(100) NOT NULL,
-    Logo MEDIUMTEXT NOT NULL,
+    Logo VARCHAR(255) NOT NULL,
     Descripcion TEXT NOT NULL,
     Cantidad INT NOT NULL,
     ConsolasCompatibles TEXT NOT NULL,
